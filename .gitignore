@@ -1,2 +1,3 @@
 *.pro
 /.vscode
+__pycache__
