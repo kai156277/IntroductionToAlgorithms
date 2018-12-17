@@ -19,7 +19,7 @@ def findMaxCrossingSubarray(array, low, mid, high):
             rightMax = rightSum
             rightIndex = i
 
-    return leftIndex, rightIndex, leftMax + rightMax
+    return leftIndex, rightIndex + 1, leftMax + rightMax
 
 def findMaximumSubarray(array, low, high):
     if (high - low) == 1:
